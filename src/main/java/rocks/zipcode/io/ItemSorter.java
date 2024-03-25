@@ -13,7 +13,7 @@ public class ItemSorter { // instance field
         this.items = items;
     }
 
-    public Item[] sort(Comparator<Item> comparator) { // sort array method
+    public Item[] sort(Comparator<Item> comparator) { // comparator to sort array method
         Arrays.sort(this.items, comparator);
         return this.items;
     }
