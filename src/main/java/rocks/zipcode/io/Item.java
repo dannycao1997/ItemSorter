@@ -9,10 +9,13 @@ public class Item { // instance fields
     private Double price;
 
 
-    public Item() {
+    public Item() { // nullary constructor
+        this.id = 0L;
+        this.name = "";
+        this.price = 0.01;
     }
 
-    public Item(Long id, String name, Double price) {
+    public Item(Long id, String name, Double price) { // non-nullary constructor
         this.id = id;
         this.name = name;
         this.price = price;
