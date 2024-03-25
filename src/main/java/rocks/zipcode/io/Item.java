@@ -3,7 +3,14 @@ package rocks.zipcode.io;
 /**
  * @author leon on 30/01/2019.
  */
-public class Item {
+public class Item { // instance fields
+    private Long id;
+    private String name;
+    private Double price;
+    
+
+
+
     public Item() {
     }
 
