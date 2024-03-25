@@ -21,27 +21,27 @@ public class Item { // instance fields
         this.price = price;
     }
 
-    public String getName() {
+    public String getName() { //getter
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name) { //setter
         this.name = name;
     }
 
-    public Long getId() {
+    public Long getId() { //getter
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Long id) { //setter
         this.id = id;
     }
 
-    public Double getPrice() {
+    public Double getPrice() { //getter
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(Double price) { //setter
         this.price = price;
     }
 }
